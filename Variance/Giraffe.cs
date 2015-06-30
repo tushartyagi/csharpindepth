@@ -19,5 +19,10 @@ namespace Variance
             this.name = name;
         }
 
+        public Giraffe MakeGiraffe()
+        {
+            return new Giraffe();
+        }
+
     }
 }
