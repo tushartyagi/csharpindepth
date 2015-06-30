@@ -46,8 +46,10 @@
     <Compile Include="Contravariance.cs" />
     <Compile Include="Covariance.cs" />
     <Compile Include="Giraffe.cs" />
+    <Compile Include="MethodGroupConversionVariance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rabbit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

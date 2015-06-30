@@ -30,7 +30,7 @@ namespace Variance
             // and
             object[] strings = new String[5];
 
-            // but these can be misused
+            // but these can be misused, since arrays are broken (http://goo.gl/guLSO)
             // strings[0] = 12; 
             // The above code compiles fine but breaks at runtime.
         }
