@@ -19,7 +19,8 @@ namespace Variance
             Animal animal = new Giraffe();
             List<Animal> animals = new List<Animal>();
             
-            // This line shows that IEnumerator<T> is contravariant for type T
+            // This line shows that Reverse is contravariant for type Animal
+            // since it changes the order of assignement.
             IEnumerable<Giraffe> giraffes = Reverse(animals);
         }
 

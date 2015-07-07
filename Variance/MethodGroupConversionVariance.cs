@@ -31,7 +31,7 @@ namespace Variance
             // return types. The delegate definition very clearly wants an
             // Animal from the method group but the definition of MakeGiraffe
             // returns a giraffe.
-            // From the article here: http://goo.gl/bpDPPX
+            // From the article at Eric Lippert's blog: http://goo.gl/bpDPPX
             // "The caller of func is never going to get anything that they’re
             // not capable of dealing with."
             AnimalMaker animalMaker = new AnimalMaker(giraffe.MakeGiraffe);    
